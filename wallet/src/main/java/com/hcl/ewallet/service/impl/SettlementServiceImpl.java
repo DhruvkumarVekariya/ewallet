@@ -1,5 +1,7 @@
 package com.hcl.ewallet.service.impl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import com.hcl.ewallet.model.Merchant;
 import com.hcl.ewallet.model.Settlement;
 import com.hcl.ewallet.model.SettlementStatus;
@@ -26,6 +28,8 @@ import com.hcl.ewallet.model.TransactionLedger;
 
 @Service
 public class SettlementServiceImpl implements SettlementService {
+    
+    private static final Logger logger = LoggerFactory.getLogger(SettlementServiceImpl.class);
 
     @Autowired
     private SettlementRepository settlementRepository;
@@ -47,12 +51,17 @@ public class SettlementServiceImpl implements SettlementService {
     @Override
     @Transactional
     public Settlement initiateSettlement(String merchantId) {
+        logger.info("Initiating settlement process for merchant: {}", merchantId);
+        
         Merchant merchant = merchantRepository.findByMerchantId(merchantId);
         if (merchant == null) {
+            logger.error("Merchant not found with ID: {}", merchantId);
             throw new RuntimeException("Merchant not found: " + merchantId);
         }
 
+        logger.debug("Calculating settlement amount for merchant: {}", merchantId);
         BigDecimal amountToSettle = calculateSettlementAmount(merchant);
+        logger.info("Settlement amount calculated for merchant {}: {}", merchantId, amountToSettle);
 
         Settlement settlement = new Settlement();
         settlement.setMerchant(merchant);
@@ -61,35 +70,68 @@ public class SettlementServiceImpl implements SettlementService {
         settlement.setStatus(SettlementStatus.PENDING);
         settlement.setReferenceNumber(generateReferenceNumber());
         
-        return settlementRepository.save(settlement);
+        logger.info("Saving settlement for merchant: {}, reference number: {}", merchantId, settlement.getReferenceNumber());
+        Settlement savedSettlement = settlementRepository.save(settlement);
+        logger.debug("Settlement saved successfully with ID: {}", savedSettlement.getId());
+        
+        return savedSettlement;
     }
 
     @Override
     @Transactional
     public void processPendingSettlements() {
+        logger.info("Starting to process pending settlements");
+        
+        LocalDateTime now = LocalDateTime.now();
+        logger.debug("Fetching pending settlements before: {}", now);
+        
         List<Settlement> pendingSettlements = settlementRepository
             .findByStatusAndSettlementDateBefore(
                 SettlementStatus.PENDING,
-                LocalDateTime.now()
+                now
             );
+        
+        logger.info("Found {} pending settlements to process", pendingSettlements.size());
 
         for (Settlement settlement : pendingSettlements) {
-            processSettlement(settlement);
+            try {
+                logger.debug("Processing settlement ID: {}", settlement.getId());
+                processSettlement(settlement);
+                logger.info("Successfully processed settlement ID: {}", settlement.getId());
+            } catch (Exception e) {
+                logger.error("Error processing settlement ID: {}", settlement.getId(), e);
+                throw e;
+            }
         }
+        
+        logger.info("Completed processing all pending settlements");
     }
 
     @Override
     @Scheduled(cron = "0 0 0 * * *")
     @Transactional
     public void processDayEndSettlements() {
+        logger.info("Starting day-end settlement process");
+        
         List<Merchant> merchants = merchantRepository.findAll();
+        logger.info("Found {} merchants for day-end settlement", merchants.size());
+        
+        int successCount = 0;
+        int failureCount = 0;
+        
         for (Merchant merchant : merchants) {
             try {
+                logger.debug("Processing day-end settlement for merchant: {}", merchant.getMerchantId());
                 initiateSettlement(merchant.getMerchantId());
+                successCount++;
+                logger.info("Successfully processed day-end settlement for merchant: {}", merchant.getMerchantId());
             } catch (Exception e) {
-                e.printStackTrace();
+                failureCount++;
+                logger.error("Failed to process day-end settlement for merchant: {}", merchant.getMerchantId(), e);
             }
         }
+        
+        logger.info("Day-end settlement process completed. Success: {}, Failures: {}", successCount, failureCount);
     }
 
     private BigDecimal calculateSettlementAmount(Merchant merchant) {
