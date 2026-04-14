@@ -1,0 +1,24 @@
+2026-04-13 18:42:43,162 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 58544 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-13 18:42:43,179 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-13 18:42:43,186 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:42:45,037 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-13 18:42:45,580 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 519 ms. Found 4 JPA repository interfaces.
+2026-04-13 18:42:47,256 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-13 18:42:47,462 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-13 18:42:47,570 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-13 18:42:48,523 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-13 18:42:48,717 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-13 18:42:50,134 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38ef1a0a
+2026-04-13 18:42:50,141 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-13 18:42:50,430 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-13 18:42:52,824 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13 18:42:54,746 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-13 18:42:57,552 INFO  [main] o.s.b.w.e.n.NettyWebServer: Netty started on port 8081 (http)
+2026-04-13 18:42:57,646 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 15.572 seconds (process running for 16.766)

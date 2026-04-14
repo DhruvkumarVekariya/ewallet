@@ -1,0 +1,21 @@
+2026-04-14 11:50:00,891 INFO  [background-preinit] o.h.v.i.u.Version: HV000001: Hibernate Validator 8.0.3.Final
+2026-04-14 11:50:01,023 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 22140 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-14 11:50:01,028 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-14 11:50:01,033 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-14 11:50:02,654 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14 11:50:03,152 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 478 ms. Found 7 JPA repository interfaces.
+2026-04-14 11:50:04,205 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14 11:50:04,350 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-14 11:50:04,435 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-14 11:50:05,247 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14 11:50:05,330 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-14 11:50:06,225 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@687b0ddc
+2026-04-14 11:50:06,230 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-14 11:50:06,460 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
