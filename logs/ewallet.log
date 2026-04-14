@@ -19,3 +19,742 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
+2026-04-14 11:50:08,201 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14 11:50:09,762 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 11:50:12,088 INFO  [main] o.s.b.w.e.n.NettyWebServer: Netty started on port 8081 (http)
+2026-04-14 11:50:12,150 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 12.196 seconds (process running for 13.639)
+2026-04-14 12:04:45,315 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.n.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-14 12:04:45,683 INFO  [netty-shutdown] o.s.b.w.e.n.GracefulShutdown: Graceful shutdown complete
+2026-04-14 12:04:47,968 INFO  [SpringApplicationShutdownHook] o.s.o.j.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:04:48,096 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2026-04-14 12:04:48,279 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource: HikariPool-1 - Shutdown completed.
+2026-04-14 12:19:35,473 INFO  [background-preinit] o.h.v.i.u.Version: HV000001: Hibernate Validator 8.0.3.Final
+2026-04-14 12:19:35,622 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 65988 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-14 12:19:35,625 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-14 12:19:35,627 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-14 12:19:37,507 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14 12:19:37,866 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 338 ms. Found 7 JPA repository interfaces.
+2026-04-14 12:19:38,859 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14 12:19:39,028 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-14 12:19:39,128 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-14 12:19:39,729 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14 12:19:39,792 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-14 12:19:40,532 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6921cfa
+2026-04-14 12:19:40,536 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-14 12:19:40,714 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-14 12:19:42,664 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14 12:19:42,952 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:19:45,776 INFO  [main] o.s.b.w.e.n.NettyWebServer: Netty started on port 8081 (http)
+2026-04-14 12:19:45,839 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 11.137 seconds (process running for 11.977)
+2026-04-14 12:25:39,217 INFO  [background-preinit] o.h.v.i.u.Version: HV000001: Hibernate Validator 8.0.3.Final
+2026-04-14 12:25:39,476 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 44544 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-14 12:25:39,478 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-14 12:25:39,480 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-14 12:25:41,419 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14 12:25:41,830 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 389 ms. Found 7 JPA repository interfaces.
+2026-04-14 12:25:42,999 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2026-04-14 12:25:43,022 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-14 12:25:43,032 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-14 12:25:43,032 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-04-14 12:25:43,188 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-14 12:25:43,190 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3618 ms
+2026-04-14 12:25:43,593 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14 12:25:43,735 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-14 12:25:43,819 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-14 12:25:44,492 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14 12:25:44,567 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-14 12:25:45,229 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a7ae340
+2026-04-14 12:25:45,232 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-14 12:25:45,429 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-14 12:25:47,237 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14 12:25:47,409 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:25:48,938 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-14 12:25:50,123 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8081"]
+2026-04-14 12:25:50,203 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2026-04-14 12:25:50,237 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 11.911 seconds (process running for 12.788)
+2026-04-14 12:25:59,930 INFO  [http-nio-8081-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-14 12:25:59,931 INFO  [http-nio-8081-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-14 12:25:59,934 INFO  [http-nio-8081-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 2 ms
+2026-04-14 12:28:31,307 WARN  [http-nio-8081-exec-10] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.hcl.ewallet.dto.UserResponse> com.hcl.ewallet.controller.UserController.createUser(com.hcl.ewallet.dto.CreateUserRequest)]
+2026-04-14 12:28:55,810 WARN  [http-nio-8081-exec-2] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.hcl.ewallet.dto.UserResponse> com.hcl.ewallet.controller.UserController.createUser(com.hcl.ewallet.dto.CreateUserRequest) with 5 errors: [Field error in object 'createUserRequest' on field 'phoneNumber': rejected value [null]; codes [NotBlank.createUserRequest.phoneNumber,NotBlank.phoneNumber,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserRequest.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber]]; default message [Phone number cannot be blank]] [Field error in object 'createUserRequest' on field 'lastName': rejected value [null]; codes [NotBlank.createUserRequest.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserRequest.lastName,lastName]; arguments []; default message [lastName]]; default message [Last name cannot be blank]] [Field error in object 'createUserRequest' on field 'email': rejected value [null]; codes [NotBlank.createUserRequest.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserRequest.email,email]; arguments []; default message [email]]; default message [Email cannot be blank]] [Field error in object 'createUserRequest' on field 'firstName': rejected value [null]; codes [NotBlank.createUserRequest.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserRequest.firstName,firstName]; arguments []; default message [firstName]]; default message [First name cannot be blank]] [Field error in object 'createUserRequest' on field 'username': rejected value [null]; codes [NotBlank.createUserRequest.username,NotBlank.username,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [createUserRequest.username,username]; arguments []; default message [username]]; default message [Username cannot be blank]] ]
+2026-04-14 12:29:27,544 WARN  [http-nio-8081-exec-4] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'multipart/form-data;boundary=--------------------------972871751352970150910484;charset=UTF-8' is not supported]
+2026-04-14 12:29:51,767 INFO  [http-nio-8081-exec-5] o.a.j.l.DirectJDKLog: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/users?={%0A%20%20%22username%22:%20%22john_doe%22,%0A%20%20%22email%22:%20%22john.doe@example.com%22,%0A%20%20%22firstName%22:%20%22John%22,%0A%20%20%22lastName%22:%20%22Doe%22,%0A%20%20%22phoneNumber%22:%20%221234567890%22%0A} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 12:31:06,538 INFO  [http-nio-8081-exec-7] o.a.j.l.DirectJDKLog: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/users?={%0A%20%20%22username%22:%20%22john_doe%22,%0A%20%20%22email%22:%20%22john.doe@example.com%22,%0A%20%20%22firstName%22:%20%22John%22,%0A%20%20%22lastName%22:%20%22Doe%22,%0A%20%20%22phoneNumber%22:%20%221234567890%22%0A} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 12:32:33,888 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.t.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-14 12:32:34,324 INFO  [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown: Graceful shutdown complete
+2026-04-14 12:32:34,389 INFO  [SpringApplicationShutdownHook] o.s.o.j.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:32:34,392 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2026-04-14 12:32:34,405 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource: HikariPool-1 - Shutdown completed.
+2026-04-14 12:32:39,376 INFO  [background-preinit] o.h.v.i.u.Version: HV000001: Hibernate Validator 8.0.3.Final
+2026-04-14 12:32:39,465 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 77584 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-14 12:32:39,468 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-14 12:32:39,469 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-14 12:32:41,319 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14 12:32:41,774 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 431 ms. Found 7 JPA repository interfaces.
+2026-04-14 12:32:43,092 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2026-04-14 12:32:43,114 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-14 12:32:43,114 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-14 12:32:43,114 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-04-14 12:32:43,273 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-14 12:32:43,277 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3705 ms
+2026-04-14 12:32:43,621 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14 12:32:43,759 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-14 12:32:43,857 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-14 12:32:44,568 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14 12:32:44,732 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-14 12:32:45,520 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b5af65b
+2026-04-14 12:32:45,527 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-14 12:32:45,732 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-14 12:32:47,523 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14 12:32:47,730 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:32:49,088 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-14 12:32:50,037 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8081"]
+2026-04-14 12:32:50,172 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2026-04-14 12:32:50,202 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 11.777 seconds (process running for 12.517)
+2026-04-14 12:33:32,293 INFO  [http-nio-8081-exec-2] o.a.j.l.DirectJDKLog: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/users?1={%0A%20%20%22username%22:%20%22john_doe%22,%0A%20%20%22email%22:%20%22john.doe@example.com%22,%0A%20%20%22firstName%22:%20%22John%22,%0A%20%20%22lastName%22:%20%22Doe%22,%0A%20%20%22phoneNumber%22:%20%221234567890%22%0A} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 12:33:46,453 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.t.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-14 12:33:46,938 INFO  [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown: Graceful shutdown complete
+2026-04-14 12:33:46,965 INFO  [SpringApplicationShutdownHook] o.s.o.j.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:33:46,968 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2026-04-14 12:33:46,992 INFO  [SpringApplicationShutdownHook] c.z.h.HikariDataSource: HikariPool-1 - Shutdown completed.
+2026-04-14 12:33:58,616 INFO  [background-preinit] o.h.v.i.u.Version: HV000001: Hibernate Validator 8.0.3.Final
+2026-04-14 12:33:58,788 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 71900 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-14 12:33:58,792 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-14 12:33:58,797 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-14 12:34:00,857 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14 12:34:01,366 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 485 ms. Found 7 JPA repository interfaces.
+2026-04-14 12:34:02,668 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2026-04-14 12:34:02,701 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-14 12:34:02,715 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-14 12:34:02,717 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-04-14 12:34:02,959 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-14 12:34:02,962 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 4066 ms
+2026-04-14 12:34:03,328 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14 12:34:03,452 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-14 12:34:03,521 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-14 12:34:04,037 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14 12:34:04,102 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-14 12:34:04,717 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c1bebca
+2026-04-14 12:34:04,722 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-14 12:34:04,914 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-14 12:34:06,708 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14 12:34:06,875 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 12:34:08,992 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-14 12:34:10,135 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8081"]
+2026-04-14 12:34:10,216 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2026-04-14 12:34:10,257 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 12.479 seconds (process running for 13.912)
+2026-04-14 12:34:14,855 INFO  [http-nio-8081-exec-2] o.a.j.l.DirectJDKLog: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/users?1={%0A%20%20%22username%22:%20%22john_doe%22,%0A%20%20%22email%22:%20%22john.doe@example.com%22,%0A%20%20%22firstName%22:%20%22John%22,%0A%20%20%22lastName%22:%20%22Doe%22,%0A%20%20%22phoneNumber%22:%20%221234567890%22%0A} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 12:35:36,535 INFO  [http-nio-8081-exec-1] o.a.j.l.DirectJDKLog: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/users?={%0A%20%20%22username%22:%20%22john_doe%22,%0A%20%20%22email%22:%20%22john.doe@example.com%22,%0A%20%20%22firstName%22:%20%22John%22,%0A%20%20%22lastName%22:%20%22Doe%22,%0A%20%20%22phoneNumber%22:%20%221234567890%22%0A} ]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:477)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 12:45:27,157 INFO  [http-nio-8081-exec-5] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-14 12:45:27,159 INFO  [http-nio-8081-exec-5] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-14 12:45:27,162 INFO  [http-nio-8081-exec-5] o.s.w.s.FrameworkServlet: Completed initialization in 2 ms
+2026-04-14 12:45:43,075 INFO  [http-nio-8081-exec-5] c.h.e.c.UserController: API: Create user request for username: john_doe
+2026-04-14 12:45:44,523 INFO  [http-nio-8081-exec-5] c.h.e.s.i.UserServiceImpl: Creating user with username: john_doe
+2026-04-14 12:45:44,959 INFO  [http-nio-8081-exec-5] c.h.e.s.i.UserServiceImpl: User created successfully. Username: john_doe, ID: 1
+2026-04-14 12:45:44,973 INFO  [http-nio-8081-exec-5] c.h.e.s.i.WalletServiceImpl: Creating user wallet for user: 1
+2026-04-14 12:45:45,022 INFO  [http-nio-8081-exec-5] c.h.e.s.i.WalletServiceImpl: User wallet created successfully. User: 1, Wallet ID: 1
+2026-04-14 12:45:45,023 INFO  [http-nio-8081-exec-5] c.h.e.s.i.UserServiceImpl: Wallet created automatically for user: 1
+2026-04-14 12:47:01,680 INFO  [http-nio-8081-exec-3] c.h.e.c.UserController: API: Get user: 1
+2026-04-14 12:47:01,692 DEBUG [http-nio-8081-exec-3] c.h.e.s.i.UserServiceImpl: Getting user: 1
+2026-04-14 12:47:18,468 INFO  [http-nio-8081-exec-2] c.h.e.c.UserController: API: Get user: 1
+2026-04-14 12:47:18,502 DEBUG [http-nio-8081-exec-2] c.h.e.s.i.UserServiceImpl: Getting user: 1
+2026-04-14 12:48:03,976 INFO  [http-nio-8081-exec-7] c.h.e.c.UserController: API: Get user by username: john_doe
+2026-04-14 12:48:03,982 DEBUG [http-nio-8081-exec-7] c.h.e.s.i.UserServiceImpl: Getting user by username: john_doe
+2026-04-14 12:48:40,198 INFO  [http-nio-8081-exec-8] c.h.e.c.MerchantController: API: Create merchant request for merchantId: MERCH001
+2026-04-14 12:48:40,200 INFO  [http-nio-8081-exec-8] c.h.e.s.i.MerchantServiceImpl: Creating merchant: ABC Store
+2026-04-14 12:48:40,217 INFO  [http-nio-8081-exec-8] c.h.e.s.i.MerchantServiceImpl: Merchant created successfully. MerchantId: MERCH001
+2026-04-14 12:48:40,218 INFO  [http-nio-8081-exec-8] c.h.e.s.i.WalletServiceImpl: Creating merchant wallet for merchant: 1
+2026-04-14 12:48:40,235 INFO  [http-nio-8081-exec-8] c.h.e.s.i.WalletServiceImpl: Merchant wallet created successfully. Merchant: 1, Wallet ID: 2
+2026-04-14 12:48:40,236 INFO  [http-nio-8081-exec-8] c.h.e.s.i.MerchantServiceImpl: Merchant wallet created automatically for merchant: MERCH001
+2026-04-14 12:49:18,998 INFO  [http-nio-8081-exec-10] c.h.e.c.MerchantController: API: Get merchant by merchantId: 1
+2026-04-14 12:49:19,030 ERROR [http-nio-8081-exec-10] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Merchant not found: 1] with root cause
+java.lang.RuntimeException: Merchant not found: 1
+	at com.hcl.ewallet.service.impl.MerchantServiceImpl.getMerchantByMerchantId(MerchantServiceImpl.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.hcl.ewallet.service.impl.MerchantServiceImpl$$SpringCGLIB$$0.getMerchantByMerchantId(<generated>)
+	at com.hcl.ewallet.controller.MerchantController.getMerchantByMerchantId(MerchantController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 12:49:31,769 INFO  [http-nio-8081-exec-4] c.h.e.c.MerchantController: API: Get merchant by id: 1
+2026-04-14 12:57:02,690 INFO  [http-nio-8081-exec-6] c.h.e.c.WalletController: API: Load money request for user: 1, amount: 100.00
+2026-04-14 12:57:02,699 INFO  [http-nio-8081-exec-6] c.h.e.s.i.WalletServiceImpl: Loading money for user: 1, amount: 100.00
+2026-04-14 12:57:02,785 INFO  [http-nio-8081-exec-6] c.h.e.s.i.WalletServiceImpl: Successfully loaded money. User: 1, Amount: 100.00, Reference: TXN-1776151622750-ff6cde58
+2026-04-14 12:57:26,222 INFO  [http-nio-8081-exec-3] c.h.e.c.WalletController: API: Load money request for user: 1, amount: 500.00
+2026-04-14 12:57:26,225 INFO  [http-nio-8081-exec-3] c.h.e.s.i.WalletServiceImpl: Loading money for user: 1, amount: 500.00
+2026-04-14 12:57:26,250 INFO  [http-nio-8081-exec-3] c.h.e.s.i.WalletServiceImpl: Successfully loaded money. User: 1, Amount: 500.00, Reference: TXN-1776151646237-8e2daeb6
+2026-04-14 12:58:33,611 INFO  [http-nio-8081-exec-8] c.h.e.c.WalletController: API: Transfer money request from user: 1 to merchant: 1, amount: 250.00
+2026-04-14 12:58:33,614 INFO  [http-nio-8081-exec-8] c.h.e.s.i.WalletServiceImpl: Transferring money from user: 1 to merchant: 1, amount: 250.00
+2026-04-14 12:58:33,648 INFO  [http-nio-8081-exec-8] c.h.e.s.i.WalletServiceImpl: Successfully transferred money. User: 1, Merchant: 1, Amount: 250.00, Reference: TXN-1776151713643-baa369d8
+2026-04-14 12:59:47,433 INFO  [http-nio-8081-exec-4] c.h.e.c.WalletController: API: Get transaction history for wallet: 1
+2026-04-14 12:59:47,438 DEBUG [http-nio-8081-exec-4] c.h.e.s.i.WalletServiceImpl: Getting transaction history for wallet: 1
+2026-04-14 14:58:53,556 INFO  [http-nio-8081-exec-6] c.h.e.c.SettlementController: Initiating settlement for merchant: MERCH001
+2026-04-14 14:58:53,714 INFO  [http-nio-8081-exec-6] c.h.e.s.i.SettlementServiceImpl: Initiating settlement process for merchant: MERCH001
+2026-04-14 14:58:53,963 DEBUG [http-nio-8081-exec-6] c.h.e.s.i.SettlementServiceImpl: Calculating settlement amount for merchant: MERCH001
+2026-04-14 14:58:54,478 INFO  [http-nio-8081-exec-6] c.h.e.s.i.SettlementServiceImpl: Settlement amount calculated for merchant MERCH001: 0
+2026-04-14 14:58:54,494 INFO  [http-nio-8081-exec-6] c.h.e.s.i.SettlementServiceImpl: Saving settlement for merchant: MERCH001, reference number: STL-72EC681B
+2026-04-14 14:58:54,597 DEBUG [http-nio-8081-exec-6] c.h.e.s.i.SettlementServiceImpl: Settlement saved successfully with ID: 1
+2026-04-14 14:58:54,610 INFO  [http-nio-8081-exec-6] c.h.e.c.SettlementController: Settlement initiated successfully for merchant: MERCH001, settlement ID: 1
+2026-04-14 14:59:24,377 INFO  [http-nio-8081-exec-3] c.h.e.c.SettlementController: Processing pending settlements
+2026-04-14 14:59:24,381 INFO  [http-nio-8081-exec-3] c.h.e.s.i.SettlementServiceImpl: Starting to process pending settlements
+2026-04-14 14:59:24,385 DEBUG [http-nio-8081-exec-3] c.h.e.s.i.SettlementServiceImpl: Fetching pending settlements before: 2026-04-14T14:59:24.382790300
+2026-04-14 14:59:24,609 INFO  [http-nio-8081-exec-3] c.h.e.s.i.SettlementServiceImpl: Found 1 pending settlements to process
+2026-04-14 14:59:24,611 DEBUG [http-nio-8081-exec-3] c.h.e.s.i.SettlementServiceImpl: Processing settlement ID: 1
+2026-04-14 14:59:24,656 INFO  [http-nio-8081-exec-3] c.h.e.s.i.SettlementServiceImpl: Successfully processed settlement ID: 1
+2026-04-14 14:59:24,658 INFO  [http-nio-8081-exec-3] c.h.e.s.i.SettlementServiceImpl: Completed processing all pending settlements
+2026-04-14 14:59:24,682 INFO  [http-nio-8081-exec-3] c.h.e.c.SettlementController: Successfully processed pending settlements
+2026-04-14 14:59:44,136 INFO  [http-nio-8081-exec-2] c.h.e.c.SettlementController: Processing pending settlements
+2026-04-14 14:59:44,141 INFO  [http-nio-8081-exec-2] c.h.e.s.i.SettlementServiceImpl: Starting to process pending settlements
+2026-04-14 14:59:44,141 DEBUG [http-nio-8081-exec-2] c.h.e.s.i.SettlementServiceImpl: Fetching pending settlements before: 2026-04-14T14:59:44.141574400
+2026-04-14 14:59:44,151 INFO  [http-nio-8081-exec-2] c.h.e.s.i.SettlementServiceImpl: Found 0 pending settlements to process
+2026-04-14 14:59:44,152 INFO  [http-nio-8081-exec-2] c.h.e.s.i.SettlementServiceImpl: Completed processing all pending settlements
+2026-04-14 14:59:44,155 INFO  [http-nio-8081-exec-2] c.h.e.c.SettlementController: Successfully processed pending settlements
+2026-04-14 15:07:56,141 INFO  [background-preinit] o.h.v.i.u.Version: HV000001: Hibernate Validator 8.0.3.Final
+2026-04-14 15:07:56,377 INFO  [main] o.s.b.StartupInfoLogger: Starting WalletApplication using Java 17.0.16 with PID 36272 (C:\Users\dhruvkumar.v\ewallet\wallet\target\classes started by dhruvkumar.v in C:\Users\dhruvkumar.v\ewallet)
+2026-04-14 15:07:56,383 DEBUG [main] o.s.b.StartupInfoLogger: Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-04-14 15:07:56,387 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2026-04-14 15:07:59,400 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14 15:08:00,365 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 920 ms. Found 7 JPA repository interfaces.
+2026-04-14 15:08:02,444 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2026-04-14 15:08:02,489 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-14 15:08:02,499 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2026-04-14 15:08:02,501 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-04-14 15:08:02,853 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2026-04-14 15:08:02,858 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 6316 ms
+2026-04-14 15:08:03,585 INFO  [main] o.h.j.i.u.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14 15:08:03,895 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-04-14 15:08:04,036 INFO  [main] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2026-04-14 15:08:05,232 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14 15:08:05,361 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Starting...
+2026-04-14 15:08:07,006 INFO  [main] c.z.h.p.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b00d59
+2026-04-14 15:08:07,032 INFO  [main] c.z.h.HikariDataSource: HikariPool-1 - Start completed.
+2026-04-14 15:08:07,326 INFO  [main] o.h.e.j.e.i.JdbcEnvironmentInitiator: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.45
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-14 15:08:09,602 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14 15:08:09,995 INFO  [main] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14 15:08:11,643 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-14 15:08:12,772 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-8081"]
+2026-04-14 15:08:12,857 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2026-04-14 15:08:12,885 INFO  [main] o.s.b.StartupInfoLogger: Started WalletApplication in 18.381 seconds (process running for 19.832)
+2026-04-14 15:08:21,702 INFO  [http-nio-8081-exec-2] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-14 15:08:21,703 INFO  [http-nio-8081-exec-2] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2026-04-14 15:08:21,706 INFO  [http-nio-8081-exec-2] o.s.w.s.FrameworkServlet: Completed initialization in 1 ms
+2026-04-14 15:08:22,104 INFO  [http-nio-8081-exec-2] c.h.e.c.UserController: API: Create user request for username: Alan_doe
+2026-04-14 15:08:22,125 INFO  [http-nio-8081-exec-2] c.h.e.s.i.UserServiceImpl: Creating user with username: Alan_doe
+2026-04-14 15:08:22,639 INFO  [http-nio-8081-exec-2] c.h.e.s.i.UserServiceImpl: User created successfully. Username: Alan_doe, ID: 2
+2026-04-14 15:08:22,641 INFO  [http-nio-8081-exec-2] c.h.e.s.i.WalletServiceImpl: Creating user wallet for user: 2
+2026-04-14 15:08:22,704 INFO  [http-nio-8081-exec-2] c.h.e.s.i.WalletServiceImpl: User wallet created successfully. User: 2, Wallet ID: 3
+2026-04-14 15:08:22,705 INFO  [http-nio-8081-exec-2] c.h.e.s.i.UserServiceImpl: Wallet created automatically for user: 2
+2026-04-14 15:23:06,200 INFO  [http-nio-8081-exec-3] c.h.e.c.WalletController: API: Get transaction history for wallet: 1
+2026-04-14 15:23:06,245 DEBUG [http-nio-8081-exec-3] c.h.e.s.i.WalletServiceImpl: Getting transaction history for wallet: 1
+2026-04-14 15:23:56,460 INFO  [http-nio-8081-exec-6] c.h.e.c.WalletController: API: Get transaction history for wallet: 2
+2026-04-14 15:23:56,466 DEBUG [http-nio-8081-exec-6] c.h.e.s.i.WalletServiceImpl: Getting transaction history for wallet: 2
+2026-04-14 15:26:04,302 WARN  [http-nio-8081-exec-1] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-04-14 15:26:27,224 INFO  [http-nio-8081-exec-2] c.h.e.c.WalletController: API: Load money request for user: 2, amount: 1000
+2026-04-14 15:26:27,228 INFO  [http-nio-8081-exec-2] c.h.e.s.i.WalletServiceImpl: Loading money for user: 2, amount: 1000
+2026-04-14 15:26:27,326 INFO  [http-nio-8081-exec-2] c.h.e.s.i.WalletServiceImpl: Successfully loaded money. User: 2, Amount: 1000, Reference: TXN-1776160587252-f7064a78
+2026-04-14 15:26:47,614 INFO  [http-nio-8081-exec-4] c.h.e.c.WalletController: API: Load money request for user: 2, amount: 3000
+2026-04-14 15:26:47,618 INFO  [http-nio-8081-exec-4] c.h.e.s.i.WalletServiceImpl: Loading money for user: 2, amount: 3000
+2026-04-14 15:26:47,631 INFO  [http-nio-8081-exec-4] c.h.e.s.i.WalletServiceImpl: Successfully loaded money. User: 2, Amount: 3000, Reference: TXN-1776160607626-5eb3548e
+2026-04-14 15:27:44,375 INFO  [http-nio-8081-exec-5] c.h.e.c.WalletController: API: Transfer money request from user: 2 to merchant: 1, amount: 2000
+2026-04-14 15:27:44,377 INFO  [http-nio-8081-exec-5] c.h.e.s.i.WalletServiceImpl: Transferring money from user: 2 to merchant: 1, amount: 2000
+2026-04-14 15:27:44,404 INFO  [http-nio-8081-exec-5] c.h.e.s.i.WalletServiceImpl: Successfully transferred money. User: 2, Merchant: 1, Amount: 2000, Reference: TXN-1776160664398-3bccd1d9
+2026-04-14 15:30:57,266 INFO  [http-nio-8081-exec-3] c.h.e.c.WalletController: API: Get transaction history for wallet: 2
+2026-04-14 15:30:57,271 DEBUG [http-nio-8081-exec-3] c.h.e.s.i.WalletServiceImpl: Getting transaction history for wallet: 2
+2026-04-14 15:31:15,272 INFO  [http-nio-8081-exec-6] c.h.e.c.WalletController: API: Get transaction history for wallet: 3
+2026-04-14 15:31:15,275 DEBUG [http-nio-8081-exec-6] c.h.e.s.i.WalletServiceImpl: Getting transaction history for wallet: 3
+2026-04-14 15:32:30,179 INFO  [http-nio-8081-exec-1] c.h.e.c.SettlementController: Initiating settlement for merchant: 2
+2026-04-14 15:32:30,183 INFO  [http-nio-8081-exec-1] c.h.e.s.i.SettlementServiceImpl: Initiating settlement process for merchant: 2
+2026-04-14 15:32:30,195 ERROR [http-nio-8081-exec-1] c.h.e.s.i.SettlementServiceImpl: Merchant not found with ID: 2
+2026-04-14 15:32:30,211 ERROR [http-nio-8081-exec-1] c.h.e.c.SettlementController: Error initiating settlement for merchant: 2
+java.lang.RuntimeException: Merchant not found: 2
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl.initiateSettlement(SettlementServiceImpl.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl$$SpringCGLIB$$0.initiateSettlement(<generated>)
+	at com.hcl.ewallet.controller.SettlementController.initiateSettlement(SettlementController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 15:32:30,233 ERROR [http-nio-8081-exec-1] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Merchant not found: 2] with root cause
+java.lang.RuntimeException: Merchant not found: 2
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl.initiateSettlement(SettlementServiceImpl.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl$$SpringCGLIB$$0.initiateSettlement(<generated>)
+	at com.hcl.ewallet.controller.SettlementController.initiateSettlement(SettlementController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 15:33:47,915 INFO  [http-nio-8081-exec-4] c.h.e.c.SettlementController: Initiating settlement for merchant: 1
+2026-04-14 15:33:47,919 INFO  [http-nio-8081-exec-4] c.h.e.s.i.SettlementServiceImpl: Initiating settlement process for merchant: 1
+2026-04-14 15:33:47,931 ERROR [http-nio-8081-exec-4] c.h.e.s.i.SettlementServiceImpl: Merchant not found with ID: 1
+2026-04-14 15:33:47,934 ERROR [http-nio-8081-exec-4] c.h.e.c.SettlementController: Error initiating settlement for merchant: 1
+java.lang.RuntimeException: Merchant not found: 1
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl.initiateSettlement(SettlementServiceImpl.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl$$SpringCGLIB$$0.initiateSettlement(<generated>)
+	at com.hcl.ewallet.controller.SettlementController.initiateSettlement(SettlementController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 15:33:47,945 ERROR [http-nio-8081-exec-4] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Merchant not found: 1] with root cause
+java.lang.RuntimeException: Merchant not found: 1
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl.initiateSettlement(SettlementServiceImpl.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.hcl.ewallet.service.impl.SettlementServiceImpl$$SpringCGLIB$$0.initiateSettlement(<generated>)
+	at com.hcl.ewallet.controller.SettlementController.initiateSettlement(SettlementController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 15:36:25,901 INFO  [http-nio-8081-exec-3] c.h.e.c.MerchantController: API: Get merchant by merchantId: 1
+2026-04-14 15:36:25,953 ERROR [http-nio-8081-exec-3] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Merchant not found: 1] with root cause
+java.lang.RuntimeException: Merchant not found: 1
+	at com.hcl.ewallet.service.impl.MerchantServiceImpl.getMerchantByMerchantId(MerchantServiceImpl.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.hcl.ewallet.service.impl.MerchantServiceImpl$$SpringCGLIB$$0.getMerchantByMerchantId(<generated>)
+	at com.hcl.ewallet.controller.MerchantController.getMerchantByMerchantId(MerchantController.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2026-04-14 15:37:41,899 INFO  [http-nio-8081-exec-7] c.h.e.c.SettlementController: Initiating settlement for merchant: MERCH001
+2026-04-14 15:37:41,902 INFO  [http-nio-8081-exec-7] c.h.e.s.i.SettlementServiceImpl: Initiating settlement process for merchant: MERCH001
+2026-04-14 15:37:41,911 DEBUG [http-nio-8081-exec-7] c.h.e.s.i.SettlementServiceImpl: Calculating settlement amount for merchant: MERCH001
+2026-04-14 15:37:41,959 INFO  [http-nio-8081-exec-7] c.h.e.s.i.SettlementServiceImpl: Settlement amount calculated for merchant MERCH001: 0
+2026-04-14 15:37:41,960 INFO  [http-nio-8081-exec-7] c.h.e.s.i.SettlementServiceImpl: Saving settlement for merchant: MERCH001, reference number: STL-16D92003
+2026-04-14 15:37:41,975 DEBUG [http-nio-8081-exec-7] c.h.e.s.i.SettlementServiceImpl: Settlement saved successfully with ID: 2
+2026-04-14 15:37:41,981 INFO  [http-nio-8081-exec-7] c.h.e.c.SettlementController: Settlement initiated successfully for merchant: MERCH001, settlement ID: 2
